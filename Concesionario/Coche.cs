@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Concesionario
 {
-    class Coche
+    abstract class Coche
     {
         private int id;
         private string marca;
@@ -47,7 +47,7 @@ namespace Concesionario
 			set { km = value; }
 		}
 
-		public int Precio
+		public virtual int Precio
 		{
 			get { return precio; }
 			set { precio = value; }
