@@ -20,14 +20,17 @@ namespace Concesionario
         //Añadimos los vehiculos en este metodo
         public void AddV(int deposit, Coche coche, int i)
         {
-            if (deposit < limitCar || deposit < i)
+            for ( i=0 ; i < deposit; i++)
             {
-                vehiculeArray[deposit] = coche;
-                Console.WriteLine("Coche guardado"+deposit);
-            }
-            else
-            {
-                Console.WriteLine("Deposito lleno");
+                if (deposit < limitCar || deposit < i)
+                {
+                    vehiculeArray[deposit] = coche;
+                    Console.WriteLine("Coche guardado" + deposit);
+                }
+                else
+                {
+                    Console.WriteLine("Deposito lleno");
+                }
             }
         }
         //Editamos los vehiculos en este metodo
