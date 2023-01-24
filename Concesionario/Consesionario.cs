@@ -33,7 +33,7 @@ namespace Concesionario
         //Editamos los vehiculos en este metodo
         public void EditV(Coche EditV)
         {
-            for (int i = 0; i < vehiculeArray.length; i++)
+            for (int i = 0; i < vehiculeArray.Length; i++)
             {
                 if (vehiculeArray[i] != null && vehiculeArray[i].ID == EditV.ID)
                 {
@@ -46,6 +46,26 @@ namespace Concesionario
             }
         }
 
+        //Enlistamiento de todos los vehiculos
+        public void List()
+        {
+            Console.WriteLine("Vehiculos: ");
+            foreach (var coche in vehiculeArray)
+            {
+                Console.WriteLine(coche.ToString() + "\n");
+            }
+        }
+        //eliminacion de vehiculos
+        public void Delete(Coche deleteV)
+        {
+            for (int i = 0; i < vehiculeArray.Length; i++)
+            {
+                if (vehiculeArray[i] != null && vehiculeArray[i].ID == deleteV.ID)
+                {
+                    vehiculeArray = vehiculeArray.Where(e => e != deleteV).ToArray();
+                }
+            }
+        }
         public Consesionario(int limitCar) { 
             limitCar = limitCar;
             vehiculeArray = new Coche[limitCar];
