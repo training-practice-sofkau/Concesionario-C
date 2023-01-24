@@ -1,0 +1,15 @@
+C:\Users\57318\Desktop\Liga Sofka\Semana1\jmgaviriam\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.csproj.AssemblyReference.cache
+C:\Users\57318\Desktop\Liga Sofka\Semana1\jmgaviriam\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\57318\Desktop\Liga Sofka\Semana1\jmgaviriam\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.AssemblyInfoInputs.cache
+C:\Users\57318\Desktop\Liga Sofka\Semana1\jmgaviriam\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.AssemblyInfo.cs
+C:\Users\57318\Desktop\Liga Sofka\Semana1\jmgaviriam\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.csproj.CoreCompileInputs.cache
+C:\Users\57318\Desktop\Liga Sofka\Semana1\jmgaviriam\Concesionario-C\Concesionario\bin\Debug\net6.0\Concesionario.exe
+C:\Users\57318\Desktop\Liga Sofka\Semana1\jmgaviriam\Concesionario-C\Concesionario\bin\Debug\net6.0\Concesionario.deps.json
+C:\Users\57318\Desktop\Liga Sofka\Semana1\jmgaviriam\Concesionario-C\Concesionario\bin\Debug\net6.0\Concesionario.runtimeconfig.json
+C:\Users\57318\Desktop\Liga Sofka\Semana1\jmgaviriam\Concesionario-C\Concesionario\bin\Debug\net6.0\Concesionario.dll
+C:\Users\57318\Desktop\Liga Sofka\Semana1\jmgaviriam\Concesionario-C\Concesionario\bin\Debug\net6.0\Concesionario.pdb
+C:\Users\57318\Desktop\Liga Sofka\Semana1\jmgaviriam\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.dll
+C:\Users\57318\Desktop\Liga Sofka\Semana1\jmgaviriam\Concesionario-C\Concesionario\obj\Debug\net6.0\refint\Concesionario.dll
+C:\Users\57318\Desktop\Liga Sofka\Semana1\jmgaviriam\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.pdb
+C:\Users\57318\Desktop\Liga Sofka\Semana1\jmgaviriam\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.genruntimeconfig.cache
+C:\Users\57318\Desktop\Liga Sofka\Semana1\jmgaviriam\Concesionario-C\Concesionario\obj\Debug\net6.0\ref\Concesionario.dll
