@@ -23,6 +23,6 @@ Crearemos los siguientes metodos:
 - editarCoche(Coche c)
 - listarCoches()
 - eliminarCoche(Coche c)
-- Coche
+
 
 #### Realizar entrega a traves de PUll requests
