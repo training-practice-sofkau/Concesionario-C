@@ -1,33 +1,40 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 
 namespace Concesionario
 {
     internal class Cuatrimoto : Coche
     {
 
-        private Boolean trasmision;
+        private Boolean trasmisionAutomatica;
 
 
-        public Cuatrimoto(int id, string marca, string modelo, int km, int precio, Boolean trasmision) : base(id, marca, modelo, km, precio)
+        public Cuatrimoto(int id, string marca, string modelo, int km, int precio, Boolean trasmisionAutomatica) : base(id, marca, modelo, km, precio)
         {
-            this.trasmision = trasmision;
+            this.trasmisionAutomatica = trasmisionAutomatica;
         }
 
-        public Boolean Trasmision { get => trasmision; set => trasmision = value; }
+        public bool TrasmisionAutomatica { get => trasmisionAutomatica; set => trasmisionAutomatica = value; }
+
 
         public override int Precio
         {
             get
             {
-                if (this.trasmision == trasmision)
-                    Console.WriteLine("El precio se mantiene");
+                return trasmisionAutomatica ? Precio + 2000000 : Precio;
 
-                return Precio + 200000;
-            }
+            }                      
+                
         }
-    }
-}
+      
+    } 
+}            
+
+
+
+
