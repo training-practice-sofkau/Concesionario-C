@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Concesionario
 {
-    class Coche
+    public class Coche
     {
         private int _id;
         private string _marca;
@@ -54,7 +54,8 @@ namespace Concesionario
             Precio = precio;
         }
 
-        public toString()
+
+        public String toString()
         {
             return "ID: " + ID + " Marca: " + Marca + " Modelo: " + Modelo + " KM: " + KM + " Precio: " + Precio;
         }

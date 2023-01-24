@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Concesionario
 {
@@ -12,24 +16,22 @@ namespace Concesionario
             set { _sidecar = value; }
         }
 
-        public Moto(int id, string marca, string modelo, int km, int precio, bool sidecar)
+        public Moto(int id, string marca, string modelo, int km, int precio, bool sidecar) : base(id, marca, modelo, km, precio)
         {
             Sidecar = sidecar;
-        }
 
-        public override Precio()
-        {
             if (Sidecar)
             {
-                return base.Precio() + 3500000;
+                Precio = base.Precio + 3500000;
             }
             else
             {
-                return base.Precio();
+                Precio = base.Precio;
             }
         }
 
-        public override string toString()
+
+        public string toString()
         {
             return base.toString() + " Sidecar: " + Sidecar;
         }
