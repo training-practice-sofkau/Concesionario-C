@@ -1,0 +1,15 @@
+C:\Users\HOME\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SOFKA TRAINING\ConsesionarioCoches\Concesionario-C\Concesionario\bin\Debug\net6.0\Concesionario.exe
+C:\Users\HOME\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SOFKA TRAINING\ConsesionarioCoches\Concesionario-C\Concesionario\bin\Debug\net6.0\Concesionario.deps.json
+C:\Users\HOME\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SOFKA TRAINING\ConsesionarioCoches\Concesionario-C\Concesionario\bin\Debug\net6.0\Concesionario.runtimeconfig.json
+C:\Users\HOME\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SOFKA TRAINING\ConsesionarioCoches\Concesionario-C\Concesionario\bin\Debug\net6.0\Concesionario.dll
+C:\Users\HOME\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SOFKA TRAINING\ConsesionarioCoches\Concesionario-C\Concesionario\bin\Debug\net6.0\Concesionario.pdb
+C:\Users\HOME\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SOFKA TRAINING\ConsesionarioCoches\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.csproj.AssemblyReference.cache
+C:\Users\HOME\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SOFKA TRAINING\ConsesionarioCoches\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HOME\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SOFKA TRAINING\ConsesionarioCoches\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.AssemblyInfoInputs.cache
+C:\Users\HOME\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SOFKA TRAINING\ConsesionarioCoches\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.AssemblyInfo.cs
+C:\Users\HOME\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SOFKA TRAINING\ConsesionarioCoches\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.csproj.CoreCompileInputs.cache
+C:\Users\HOME\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SOFKA TRAINING\ConsesionarioCoches\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.dll
+C:\Users\HOME\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SOFKA TRAINING\ConsesionarioCoches\Concesionario-C\Concesionario\obj\Debug\net6.0\refint\Concesionario.dll
+C:\Users\HOME\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SOFKA TRAINING\ConsesionarioCoches\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.pdb
+C:\Users\HOME\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SOFKA TRAINING\ConsesionarioCoches\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.genruntimeconfig.cache
+C:\Users\HOME\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\SOFKA TRAINING\ConsesionarioCoches\Concesionario-C\Concesionario\obj\Debug\net6.0\ref\Concesionario.dll
