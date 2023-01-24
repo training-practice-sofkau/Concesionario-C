@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Concesionario
 {
-    internal class Menu
+    internal class Menu : Concesionario
     {
         string opcionMenu = "";
         public void Iniciar(){ 
@@ -34,7 +35,43 @@ namespace Concesionario
             
             switch(seleccion)
             {
+                case "1":
+                    Console.Clear();
+                    CrearCoche();
+                    retornarMenu();
+                    Console.ReadKey();
+                    break;
+                case "2":
+                    Console.Clear();
+                    lista();
+                    retornarMenu();
+                    Console.ReadKey();
+                    break;
+                case "3":
+                    Console.Clear();
+                    Eliminar();
+                    retornarMenu();
+                    Console.ReadKey();
+                    break;
+                case "4":
+                    Console.Clear();
+                    modificar();
+                    retornarMenu();
+                    Console.ReadKey();
+                    break;
+                case "5":
+                    Console.Clear();
+                    buscar();
+                    retornarMenu();
+                    Console.ReadKey();
+                    break;
+                case "r":
+                    Console.Clear();
+                    cabezera();
+                    Console.ReadKey();
+                    break;
                 default:
+                    Console.WriteLine("Selección invalida");
                     break;
             }
         }

@@ -10,7 +10,7 @@ namespace Concesionario
     {
         private bool _Sidecar;
         //Constructor de clase padre
-        public Moto(int id, string marca, string modelo, int km, int precio, bool sidecar) : base(id, marca, modelo, km, precio)
+        public Moto(string id, string marca, string modelo, int km, int precio, bool sidecar) : base(id, marca, modelo, km, precio)
         {
             this.Sidecar = sidecar;
         }

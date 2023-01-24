@@ -7,8 +7,8 @@ internal class Program
     {
         
 
-        Cuatrimoto cu = new Cuatrimoto(2, "Honda", "2014", 20, 300000, false);
-        Moto m = new Moto(3, "Toyota", "2022", 30, 25000, true);
+        Cuatrimoto cu = new Cuatrimoto("1", "Honda", "2014", 20, 300000, false);
+        Moto m = new Moto("2", "Toyota", "2022", 30, 25000, true);
         
         Console.WriteLine(cu.ToString());
         Console.WriteLine(m.ToString());

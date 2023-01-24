@@ -12,7 +12,7 @@ namespace Concesionario
         Boolean _Transmision;
 
         //Constructor de clase padre
-        public Cuatrimoto(int id, string marca, string modelo, int km, int precio, bool transmision) : base(id, marca, modelo, km, precio)
+        public Cuatrimoto(string id, string marca, string modelo, int km, int precio, bool transmision) : base(id, marca, modelo, km, precio)
         {
             this.Transmision = transmision;
         }
