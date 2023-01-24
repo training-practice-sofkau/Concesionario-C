@@ -6,22 +6,57 @@ using System.Threading.Tasks;
 
 namespace Concesionario
 {
-    class Coche
+    abstract class Coche
     {
-        public int ID { get; set; }
-        public string Marca { get; set; }
-        public string Modelo { get; set; }
-        public int KM { get; set; }
-        public int Precio { get; set; }
+        private int id;
+        private string marca;
+        private string modelo;
+        private int km;
+        private int precio;
 
-        public Coche(int id, string marca, string modelo, int km, int precio)
+        public Coche(int idCoche, string marcaCoche, string modeloCoche, int kmCoche, int precioCoche)
         {
-            ID = id;
-            Marca = marca;
-            Modelo = modelo;
-            KM = km;
-            Precio = precio;
+			id = idCoche;
+			marca = marcaCoche;
+			modelo = modeloCoche;
+			km = kmCoche;
+			precio = precioCoche;
+        }
+        
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
         }
 
-    }
+		public string Marca
+		{
+			get { return marca; }
+			set { marca = value; }
+		}
+
+		public string Modelo
+		{
+			get { return modelo; }
+			set { modelo = value; }
+		}
+
+		public int Km
+		{
+			get { return km; }
+			set { km = value; }
+		}
+
+		public virtual int Precio
+		{
+			get { return precio; }
+			set { precio = value; }
+		}
+
+		public override string ToString()
+		{
+			return "El vehiculo " + id + " de marca " + marca + " modelo " +modelo+ " con un kilometraje de "+ km +" tiene un precio de "+precio;
+		}
+
+	}
 }
