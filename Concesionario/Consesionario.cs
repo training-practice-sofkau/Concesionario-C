@@ -22,12 +22,12 @@ namespace Concesionario
         {
             if (deposit < limitCar)
             {
-                vehiculeArray[deposit] = coche;
-                Console.WriteLine("Coche guardado"+deposit);
+                Console.WriteLine("Deposito lleno");
             }
             else
             {
-                Console.WriteLine("Deposito lleno");
+                vehiculeArray[deposit] = coche;
+                Console.WriteLine("Coche guardado" + deposit);
             }
         }
         //Editamos los vehiculos en este metodo

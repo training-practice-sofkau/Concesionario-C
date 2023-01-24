@@ -30,10 +30,10 @@ namespace Concesionario
             //Da a escoger que va a ingresar en el deposito
             do {
                 Console.WriteLine("0. Ninguna ");
-                Console.WriteLine("1. Añadir Coche");
-                Console.WriteLine("2. Editar Coche");
-                Console.WriteLine("3. Listar Coches");
-                Console.WriteLine("4. Eliminar Coche");
+                Console.WriteLine("1. Añadir vehiculo");
+                Console.WriteLine("2. Editar vehiculo");
+                Console.WriteLine("3. Listar vehiculo");
+                Console.WriteLine("4. Eliminar vehiculo");
                 opcion = int.Parse(Console.ReadLine());
                 Console.WriteLine("Ingrese 1. Cuatrimoto, 2. Moto");
                 option = int.Parse(Console.ReadLine());
@@ -128,7 +128,7 @@ namespace Concesionario
                         _KM = int.Parse(Console.ReadLine());
                         Console.WriteLine("Ingrese el Precio");
                         _Precio = int.Parse(Console.ReadLine());
-                        Console.WriteLine("¿Modificara 1. Cuatrimoto, 2. Moto?:");
+                        Console.WriteLine("Elimina 1.Cuatrimoto 2.Moto?");
                         int optionD = int.Parse(Console.ReadLine());
                         if (optionD == 1)
                         {

@@ -21,15 +21,15 @@ namespace Concesionario
         }
         public string Marca { 
             get { return _Marca; }
-            set { Marca = value; } 
+            set { _Marca = value; } 
         }
         public string Modelo { 
             get { return _Modelo; } 
-            set { Modelo = value; } 
+            set { _Modelo = value; } 
         }
         public int KM { 
             get { return _KM; } 
-            set { KM = value; } 
+            set { _KM = value; } 
         }
         public int Precio { 
             get { return _Precio;  } 
