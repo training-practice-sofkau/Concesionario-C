@@ -16,7 +16,7 @@ namespace Concesionario
 
 
         //Construcctor
-        public Coche(int id, string marca, string modelo, int km, int precio)
+        public Coche(int id, string marca, string modelo, int km, double precio)
         {
             this._ID = id;
             this._Marca = marca;
