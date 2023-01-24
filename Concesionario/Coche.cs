@@ -8,19 +8,38 @@ namespace Concesionario
 {
     class Coche
     {
-        public int ID { get; set; }
-        public string Marca { get; set; }
-        public string Modelo { get; set; }
-        public int KM { get; set; }
-        public int Precio { get; set; }
+        private string _ID { get; set; }
+        private string _Marca { get; set; }
+        private string _Modelo { get; set; }
+        private int _KM { get; set; }
+        private double _Precio { get; set; }
 
-        public Coche(int id, string marca, string modelo, int km, int precio)
+
+
+        //Construcctor
+        public Coche(string id, string marca, string modelo, int km, double precio)
         {
-            ID = id;
-            Marca = marca;
-            Modelo = modelo;
-            KM = km;
-            Precio = precio;
+            this._ID = id ;
+            this._Marca = marca;
+            this._Modelo = modelo;
+            this._KM = km;
+            this._Precio = precio;
+        }
+
+        public Coche()
+        {
+        }
+
+        //Getters And Setters
+        public string ID { get => _ID; set => _ID = value; }
+        public string Marca { get => _Marca; set => _Marca = value; }
+        public string Modelo { get => _Modelo; set => _Modelo = value; }
+        public int KM { get => _KM; set => _KM = value; }
+        public virtual double Precio { get => _Precio; set => _Precio = value; }
+        //Metodo To String
+        public override string ToString()
+        {
+            return "Marca: " + Marca + " Modelo: " + Modelo + " Kilometros: " + KM + " Precio: " + Precio;
         }
 
     }
