@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Concesionario"
   ],
+  "SelectedNode": "\\Concesionario\\Coche.cs",
   "PreviewInSolutionExplorer": false
 }
