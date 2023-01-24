@@ -1,0 +1,15 @@
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.csproj.AssemblyReference.cache
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.AssemblyInfoInputs.cache
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.AssemblyInfo.cs
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.csproj.CoreCompileInputs.cache
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\bin\Debug\net6.0\Concesionario.exe
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\bin\Debug\net6.0\Concesionario.deps.json
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\bin\Debug\net6.0\Concesionario.runtimeconfig.json
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\bin\Debug\net6.0\Concesionario.dll
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\bin\Debug\net6.0\Concesionario.pdb
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.dll
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\obj\Debug\net6.0\refint\Concesionario.dll
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.pdb
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.genruntimeconfig.cache
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\obj\Debug\net6.0\ref\Concesionario.dll
