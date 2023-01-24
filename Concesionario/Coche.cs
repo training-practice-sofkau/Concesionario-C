@@ -6,13 +6,44 @@ using System.Threading.Tasks;
 
 namespace Concesionario
 {
-    class Coche
+    public class Coche
     {
-        public int ID { get; set; }
-        public string Marca { get; set; }
-        public string Modelo { get; set; }
-        public int KM { get; set; }
-        public int Precio { get; set; }
+        private int _id;
+        private string _marca;
+        private string _modelo;
+        private int _km;
+        private int _precio;
+
+        public int ID
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+
+        public string Marca
+        {
+            get { return _marca; }
+            set { _marca = value; }
+        }
+
+        public string Modelo
+        {
+            get { return _modelo; }
+            set { _modelo = value; }
+        }
+
+        public int KM
+        {
+            get { return _km; }
+            set { _km = value; }
+        }
+
+        public int Precio
+        {
+            get { return _precio; }
+            set { _precio = value; }
+        }
+
 
         public Coche(int id, string marca, string modelo, int km, int precio)
         {
@@ -23,5 +54,10 @@ namespace Concesionario
             Precio = precio;
         }
 
+
+        public String toString()
+        {
+            return "ID: " + ID + " Marca: " + Marca + " Modelo: " + Modelo + " KM: " + KM + " Precio: " + Precio;
+        }
     }
 }
