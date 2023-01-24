@@ -126,10 +126,13 @@ namespace Concesionario
                         Console.WriteLine("Ingrese la Marca del coche : ");
                         coche.Marca = Console.ReadLine();
                         item.Marca = coche.Marca;
+                        Console.WriteLine("Ingrese el Modelo del coche : ");
                         coche.Modelo = Console.ReadLine();
                         item.Modelo = coche.Modelo;
+                        Console.WriteLine("Ingrese los Km del coche : ");
                         coche.KM = int.Parse(Console.ReadLine());
                         item.KM = coche.KM;
+                        Console.WriteLine("Ingrese el precio del coche : ");
                         coche.Precio = int.Parse(Console.ReadLine());
                         item.Precio = coche.Precio;
                         Console.WriteLine("\n");

@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{F2FC4899-3A6A-42D4-A2CE-FC5A4DF34BE0}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Concesionario PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Concesionario/Concesionario.cs">
+    <Files>
+      <File FileName="Concesionario/Coche.cs" />
+      <File FileName="Concesionario/Concesionario.cs" Line="138" Column="49" />
+      <File FileName="Concesionario/Program.cs" Line="25" Column="6" />
+      <File FileName="Concesionario/CocheBase.cs" />
+      <File FileName="Concesionario/Cuatrimoto.cs" />
+      <File FileName="Concesionario/Menu.cs" Line="13" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Concesionario" expanded="True">
+            <Node name="Concesionario" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
