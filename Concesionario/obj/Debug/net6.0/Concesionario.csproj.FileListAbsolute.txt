@@ -1,0 +1,5 @@
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.csproj.AssemblyReference.cache
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.AssemblyInfoInputs.cache
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.AssemblyInfo.cs
+C:\Users\Thanden\Desktop\Concesionario-C\Concesionario\obj\Debug\net6.0\Concesionario.csproj.CoreCompileInputs.cache
