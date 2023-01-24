@@ -17,7 +17,7 @@ namespace Concesionario
         public Moto(int id, string marca, string modelo, int km, int precio, bool sidecar) : base(id, marca, modelo, km, precio)
         {
             this.sidecar = sidecar;
-            if (sidecar)
+            if (sidecar == true)
             {
                 //Aumenta el precio por tener sidecar
                 base.Precio = (precio += 3500000);

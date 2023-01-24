@@ -56,9 +56,9 @@ namespace Concesionario
                             Console.WriteLine("Ingrese el Trasmision");
                             transmission = Console.ReadLine();
                             Cuatrimoto cuatrimoto = new(_ID, _Marca, _Modelo, _KM, _Precio, transmission);
-                            consesionario.AddV(i, cuatrimoto);
+                            consesionario.AddV(cantidad, cuatrimoto, i);
                         }
-                        else
+                        else if(option == 2)
                         {
                             Console.WriteLine("¿Tiene SideCar? Si, No: ");
                             realidad = Console.ReadLine();
@@ -66,13 +66,13 @@ namespace Concesionario
                             {
                                 sidecar = true;
                                 Moto moto = new(_ID, _Marca, _Modelo, _KM, _Precio, sidecar);
-                                consesionario.AddV(i, moto);
+                                consesionario.AddV(cantidad, moto, i);
                             }
                             else
                             {
                                 sidecar = false;
                                 Moto moto = new(_ID, _Marca, _Modelo, _KM, _Precio, sidecar);
-                                consesionario.AddV(i, moto);
+                                consesionario.AddV(cantidad, moto, i);
                             }
                         }
                         break;
@@ -96,7 +96,7 @@ namespace Concesionario
                             Cuatrimoto cuatrimoto = new(_ID, _Marca, _Modelo, _KM, _Precio, transmission);
                             consesionario.EditV(cuatrimoto);
                         }
-                        else
+                        else if (option == 2)
                         {
                             Console.WriteLine("¿Tiene SideCar? Si, No: ");
                             realidad = Console.ReadLine();
@@ -137,7 +137,7 @@ namespace Concesionario
                             Cuatrimoto cuatrimoto = new(_ID, _Marca, _Modelo, _KM, _Precio, transmission);
                             consesionario.Delete(cuatrimoto);
                         }
-                        else
+                        else if (option == 2)
                         {
                             Console.WriteLine("¿Tiene SideCar? Si, No: ");
                             realidad = Console.ReadLine();
@@ -147,7 +147,7 @@ namespace Concesionario
                                 Moto moto = new(_ID, _Marca, _Modelo, _KM, _Precio, sidecar);
                                 consesionario.Delete(moto);
                             }
-                            else
+                            else if (realidad == "No")
                             {
                                 sidecar = false;
                                 Moto moto = new(_ID, _Marca, _Modelo, _KM, _Precio, sidecar);
@@ -159,7 +159,7 @@ namespace Concesionario
                         Console.WriteLine("Dato incorrecto");
                         break;
                 }
-            } while(opcion > 0 && opcion < 5);
+            } while(opcion < 0 && opcion > 4);
         }
     }
 }
