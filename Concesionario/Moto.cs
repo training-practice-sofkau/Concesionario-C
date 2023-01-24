@@ -24,5 +24,13 @@ namespace Concesionario
 			get { return base.Precio; }
 			set { base.Precio = value; }
 		}
+
+		public void VerificarPrecio(Moto moto)
+		{
+			if (sidecar)
+			{
+				moto.Precio += 3500000;
+			}
+		}
 	}
 }

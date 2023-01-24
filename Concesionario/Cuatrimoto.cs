@@ -23,5 +23,13 @@ namespace Concesionario
 		{
 			get { return base.Precio; } set { base.Precio = value; }
 		}
+
+		public void VerificarPrecio(Cuatrimoto cuatri)
+		{
+			if (transmision)
+			{
+				cuatri.Precio += 2000000;
+			}
+		}
 	}
 }
