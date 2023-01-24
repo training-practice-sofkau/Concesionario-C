@@ -4,28 +4,37 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Concesionario
 {
-    class Coche
+     abstract class Coche
     {
-        public int ID { get; set; }
-        public string Marca { get; set; }
-        public string Modelo { get; set; }
-        public int KM { get; set; }
-        public int Precio { get; set; }
+        private int iD;
+        private string marca;
+        private string modelo;
+        private int km;
+        private int precio;
 
         public Coche(int id, string marca, string modelo, int km, int precio)
         {
-            ID = id;
-            Marca = marca;
-            Modelo = modelo;
-            KM = km;
-            Precio = precio;
+            this.ID = id;
+            this.Marca = marca;
+            this.Modelo = modelo;
+            this.km = km;
+            this.Precio = precio;
         }
+
+        public int ID { get => iD; set => iD = value; }
+        public string Marca { get => marca; set => marca = value; }
+        public string Modelo { get => modelo; set => modelo = value; }
+        public int KM { get => km; set => km = value; }
+        public virtual int Precio { get => precio; set => precio = value; }
 
         public override string? ToString()
         {
-            return base.ToString();
+            return "Id : " + ID + "Marca :" + Marca + "Modelo :" + Modelo + "KM : " + km + "precio : " + Precio;
         }
+
+       
     }
 }
