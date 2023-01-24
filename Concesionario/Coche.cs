@@ -23,5 +23,10 @@ namespace Concesionario
             Precio = precio;
         }
 
+        public override string ToString()
+        {
+            return $"ID: {ID} \n Marca: {Marca} \n Modelo: {Modelo} \n Km: {KM} \n Precio: {Precio}";
+        }
+
     }
 }
