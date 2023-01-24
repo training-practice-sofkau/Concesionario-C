@@ -1,12 +1,20 @@
 ﻿
 using Concesionario;
 
-Coche c = new Coche(1, "Ferrari", "2014", 300, 5000);
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Coche c = new Coche(1, "Ferrari", "2014", 300, 5000);
 
-Console.WriteLine(c.Marca);
-Console.WriteLine(c.Modelo);
-c.KM = 700;
-Console.WriteLine(c.Precio);
-Console.WriteLine(c.KM);
-Console.WriteLine(c.ToString());
-Console.ReadLine();
+        Cuatrimoto cu = new Cuatrimoto(2, "Honda", "2014", 20, 300000, false);
+        Moto m = new Moto(3, "Toyota", "2022", 30, 25000, true);
+        
+        Console.WriteLine(cu.ToString());
+        Console.WriteLine(m.ToString());
+
+
+
+        Console.ReadLine();
+    }
+}

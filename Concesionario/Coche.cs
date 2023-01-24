@@ -12,7 +12,7 @@ namespace Concesionario
         private string _Marca;
         private string _Modelo;
         private int _KM;
-        private int _Precio;
+        private double _Precio;
 
 
         //Construcctor
@@ -30,7 +30,7 @@ namespace Concesionario
         public string Marca { get => _Marca; set => _Marca = value; }
         public string Modelo { get => _Modelo; set => _Modelo = value; }
         public int KM { get => _KM; set => _KM = value; }
-        public int Precio { get => _Precio; set => _Precio = value; }
+        public virtual double Precio { get => _Precio; set => _Precio = value; }
         //Metodo To String
         public override string ToString()
         {
